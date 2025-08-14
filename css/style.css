@@ -1,0 +1,31 @@
+#count-down{
+    color: rgb(88, 78, 154);
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#card{
+display: none;
+}
+ #loader{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+.loader-con{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000eb;
+}
+.list-group-item{
+    background-color: transparent;
+}
+img{
+    max-width: 100%;
+}
